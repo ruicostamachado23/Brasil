@@ -1,0 +1,75 @@
+header img{
+    display: none;
+}
+header{
+  min-height: 70px;
+}
+header h2{
+    font-size: 25px;
+}
+header p {
+    font-size: 15px;
+}
+
+main article div#aviso
+{
+    font-family:'Courier New', Courier, monospace;
+}
+main article div#aviso h1, div#descobrimento h2, div#colonia h2, div#capitanias h2, div#governogeral h2, div#divisao h2, 
+div#dominio h2 {
+   font-size: 20px; 
+}
+main article div#aviso p, div#descobrimento p, div#colonia p, div#governogeral p, div#divisao p, div#dominio p {
+    font-size: 18px;
+}
+main article div#descobrimento p, div#colonia p, div#capitanias p, div#governogeral p, div#dominio p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div#divisao p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main div#descobrimento img{
+    width: 87%;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+main div#colonia img#pau-brasil{
+    width: 87%;
+    padding: 10px;
+    margin: 0 15px;
+}
+main div#capitanias img{
+    margin: 0 5px;
+    width: 90%;
+}
+main div#governogeral img{
+    width: 92%;
+    margin:0 5px;
+}
+
+main div#governogeral img#saopaulo {
+    width: 92%;
+    margin-left: 2px;
+}
+
+main div#divisao img {
+    width: 65%;
+}
+main div#dominio img#uniao{
+    width: 92%;
+    margin-left: 5px;  
+}
+
+main div#dominio img#maranhao_brasil, div#dominio img#brasipng {
+    width: 75%;
+    margin-left: 25px;
+}
+
+aside{
+    font-size: 15px;
+    margin: 18px 12px;
+}
+
+
+

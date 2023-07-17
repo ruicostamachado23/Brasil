@@ -1,0 +1,271 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+'Hammersmith One', sans-serif
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
+:root {
+    --cor01: #309412;
+    --cor02: #217208;
+    --cor03: #3ace0d;
+    --cor04: #e0e0e0;
+    --cor05: #1E613C;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif; 
+    --font-brasil: 'Mitr', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--font-padrao);
+    background-color: var(--cor04);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+header h2{
+    color: white;
+    font-style: italic;
+    font-size: 2.2em;
+}
+
+header p {
+    color: var(--cor04);
+    font-weight:bold;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+header img {
+    width: 8%;
+
+}
+main article {
+    background-color: var(--cor05);
+    min-height: 300px;
+    padding: 20px;
+}
+
+main article div#aviso{
+    background-image: linear-gradient(to bottom, #242920, #192317);
+    max-width: 780px;
+    padding: 10px;
+    margin: 8px auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 10px black;
+    font-size: 1.1em;
+    font-family: var(--font-padrao);
+}
+div#aviso h1{
+    font-size: 1.2em;
+}
+
+div#aviso p {
+    font-size: 1.1em;
+}
+main article div h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 15px;
+}
+main article div p {
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
+}
+
+main article h2{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+main article p{
+    color: white;
+    text-align: justify;
+    margin: 15px 0px;
+    font-size: 1.1em;
+    text-indent: 15px;
+}
+
+main article div#descobrimento{
+    background-image: linear-gradient(to bottom, #2E5D23, #192317);
+    padding: 25px;
+    line-height: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 50px;
+}
+#descobrimento p, #colonia p, #capitanias p, #governogeral p, #divisao p, #dominio p{
+    font-family: var(--font-brasil);
+}
+#descobrimento img{
+    width: 45%;
+    padding: 15px;
+    margin-left: 18px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+
+}
+
+#colonia{
+    background-image: linear-gradient(to bottom, #057A5C, #192317); 
+    padding: 25px;
+    line-height: 2em;
+    margin-bottom: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 50px;
+
+}
+
+#colonia img#pau-brasil {
+    width: 45%;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+
+}
+
+#colonia div#madeira {
+    margin-left: 25px;
+}
+
+#capitanias {
+    background-image: linear-gradient(to bottom, #3C655B, #192317);
+    padding: 25px;
+    line-height: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 50px;
+}
+
+#capitanias img {
+    width:48%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+#governogeral{
+    background-image: linear-gradient(to bottom, #123247, #192317);    
+    padding: 25px;
+    line-height: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#governogeral img {
+    width: 45%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+#governogeral img#saopaulo {
+    width: 55%;
+}
+
+#divisao {
+    max-width: 670px;
+    height: 520px;
+    background-image: linear-gradient(to bottom, #192317, #192317);
+    padding: 25px;
+    line-height: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#divisao img{
+    width: 55%;
+}
+
+#dominio {
+    background-image: linear-gradient(to bottom, #1C0A39, #192317);
+    padding: 25px;
+    line-height: 2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 30px;
+}
+#dominio > #uniao{
+    width: 50%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+#dominio > #maranhao_brasil{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    padding: 2px;
+}
+#dominio > #maranhao_brasil, #brasipng{
+    padding: 20px;
+}
+aside {
+    max-width: 565px;
+    background-color: var(--cor02);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.287);
+    margin-bottom: 40px;
+}
+
+aside > h3 {
+    background-color: #101A94;
+    color: white;
+    padding: 15px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    list-style: none;
+    columns: 1;
+    padding: 8px;
+    color: white;
+    font-size: 1.2em;
+    font-family: var(--font-padrao);
+    font-weight: bold;
+}
+aside > ul > li {
+    margin-top: 8px;
+}
+
+footer {
+    background-image: linear-gradient(#014420, #09AB54);
+    color: white;
+    text-align: center;
+    font-size:1.1em;
+    padding:30px;
+}
+
+footer a {
+    color: white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+
+
+
